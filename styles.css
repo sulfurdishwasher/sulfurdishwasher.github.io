@@ -3,8 +3,11 @@
 	text-align: left;
 }
 body{
-	background-color: #EFE9F4;
-	padding: 5%;
+	background-color: #474448	;
+	overflow: hidden;
+	padding: 20px;
+	padding-top: 0;
+	margin: 10px;
 }
 nav{
 	display: flex;
@@ -12,16 +15,16 @@ nav{
 	flex-wrap: nowrap;
 	justify-content: flex-end;
 	align-items: center;
-	gap: 5%;
-	color: #16262E;
+	gap: 30px;
+	color: #F6EFEE;
 	text-transform: uppercase;
 }
 nav *:hover{
-	color: black;
+/*	color: black;*/
 	cursor: pointer;
 }
 h1{
-	color: #0A2239;
+	color: #F6EFEE;
 	text-transform: lowercase;
 	font-size: 50px;
 	font-family: Abril_Fatface;
@@ -33,23 +36,23 @@ hr{
 	margin: 0;
 }
 section{
-	padding-top: 20%;
 	display: flex;
 	flex-direction: column;
 	flex-wrap: wrap;
 	text-transform: lowercase;
+	color: #F6EFEE;
 }
 footer{
 	position: absolute;
 	bottom: 10%;
 	display: flex;
 	flex-direction: row;
-	gap: 5%;
+	gap: 20px;
 	justify-content: flex-start;
 }
 
 a{
-	color: #474448;
+	color: #F6EFEE;
 	text-decoration: none;
 	cursor: pointer;
 }
